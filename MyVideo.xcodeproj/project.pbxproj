@@ -33,27 +33,6 @@
 			remoteGlobalIDString = ED25ECF9217291FD00696691;
 			remoteInfo = MyVideo;
 		};
-		ED25ED71217518C600696691 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = ED25ED6B217518C300696691 /* testGit.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = ED25ED3A217518BD00696691;
-			remoteInfo = testGit;
-		};
-		ED25ED73217518C600696691 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = ED25ED6B217518C300696691 /* testGit.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = ED25ED4E217518C300696691;
-			remoteInfo = testGitTests;
-		};
-		ED25ED75217518C600696691 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = ED25ED6B217518C300696691 /* testGit.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = ED25ED59217518C300696691;
-			remoteInfo = testGitUITests;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -72,7 +51,6 @@
 		ED25ED2B2172928600696691 /* Video.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
 		ED25ED2D2172948B00696691 /* VideoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoTableViewController.swift; sourceTree = "<group>"; };
 		ED25ED2F2173133E00696691 /* TableViewVideoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewVideoCell.swift; sourceTree = "<group>"; };
-		ED25ED6B217518C300696691 /* testGit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = testGit.xcodeproj; path = testGit/testGit.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +81,6 @@
 		ED25ECF1217291FD00696691 = {
 			isa = PBXGroup;
 			children = (
-				ED25ED6B217518C300696691 /* testGit.xcodeproj */,
 				ED25ECFC217291FD00696691 /* MyVideo */,
 				ED25ED112172920500696691 /* MyVideoTests */,
 				ED25ED1C2172920500696691 /* MyVideoUITests */,
@@ -152,16 +129,6 @@
 				ED25ED1F2172920500696691 /* Info.plist */,
 			);
 			path = MyVideoUITests;
-			sourceTree = "<group>";
-		};
-		ED25ED6C217518C300696691 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				ED25ED72217518C600696691 /* testGit.app */,
-				ED25ED74217518C600696691 /* testGitTests.xctest */,
-				ED25ED76217518C600696691 /* testGitUITests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -254,12 +221,6 @@
 			mainGroup = ED25ECF1217291FD00696691;
 			productRefGroup = ED25ECFB217291FD00696691 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = ED25ED6C217518C300696691 /* Products */;
-					ProjectRef = ED25ED6B217518C300696691 /* testGit.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				ED25ECF9217291FD00696691 /* MyVideo */,
@@ -268,30 +229,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		ED25ED72217518C600696691 /* testGit.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = testGit.app;
-			remoteRef = ED25ED71217518C600696691 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		ED25ED74217518C600696691 /* testGitTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = testGitTests.xctest;
-			remoteRef = ED25ED73217518C600696691 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		ED25ED76217518C600696691 /* testGitUITests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = testGitUITests.xctest;
-			remoteRef = ED25ED75217518C600696691 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		ED25ECF8217291FD00696691 /* Resources */ = {
