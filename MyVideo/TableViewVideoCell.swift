@@ -17,6 +17,7 @@ class TableViewVideoCell : UITableViewCell {
     var video : Video! {
         didSet {
             updateUI()
+            //UI Update branch Xcode
         }
     }
     

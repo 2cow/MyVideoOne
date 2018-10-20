@@ -7,10 +7,13 @@
 //
 
 import UIKit
-
+import AVKit
+import AVFoundation
 class VideoViewControler: UITableViewController {
     
     var videos : [Video] = Video.fetchVideos()
+    var player = AVPlayer()
+    var playController = AVPlayerViewController()
     
     //MARK: - UITableViewDataSource
     
@@ -34,7 +37,29 @@ class VideoViewControler: UITableViewController {
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
       tableView.deselectRow(at: indexPath, animated: true)
+        playVideo(at : indexPath)
     }
     
+    func playVideo(at indexPath : IndexPath) {
+        let selectedVideo = videos[indexPath.row]
+        let videoPath = Bundle.main.path(forResource: selectedVideo.videoFileName, ofType: "mp4")
+        let videoUrl = URL(fileURLWithPath: videoPath!)
+        
+        player = AVPlayer(url: videoUrl)
+        self.present(playController, animated: true, completion: {
+        self.playController.player?.play()
+        })
+    }
+    override func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
+        let rotationTransform = CATransform3DTranslate(CATransform3DIdentity, -400, 10, 0)
+        cell.layer.transform = rotationTransform
+        cell.alpha = 0.2
+        
+        UIView.animate(withDuration: 1.0 ) {
+            cell.layer.transform = CATransform3DIdentity
+            cell.alpha = 1.0
+        }
+        
+    }
     
 }
