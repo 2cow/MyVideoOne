@@ -16,6 +16,12 @@
 		ED25ED2C2172928700696691 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED25ED2B2172928600696691 /* Video.swift */; };
 		ED25ED2E2172948B00696691 /* VideoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED25ED2D2172948B00696691 /* VideoTableViewController.swift */; };
 		ED25ED302173133E00696691 /* TableViewVideoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED25ED2F2173133E00696691 /* TableViewVideoCell.swift */; };
+		ED25ED8A217D0AF600696691 /* v5.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = ED25ED84217D0AEF00696691 /* v5.mp4 */; };
+		ED25ED8B217D0AF600696691 /* v3.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = ED25ED85217D0AF000696691 /* v3.mp4 */; };
+		ED25ED8C217D0AF600696691 /* v6.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = ED25ED86217D0AF000696691 /* v6.mp4 */; };
+		ED25ED8D217D0AF600696691 /* v2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = ED25ED87217D0AF300696691 /* v2.mp4 */; };
+		ED25ED8E217D0AF600696691 /* v1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = ED25ED88217D0AF500696691 /* v1.mp4 */; };
+		ED25ED8F217D0AF600696691 /* v4.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = ED25ED89217D0AF500696691 /* v4.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,12 +57,12 @@
 		ED25ED2B2172928600696691 /* Video.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
 		ED25ED2D2172948B00696691 /* VideoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoTableViewController.swift; sourceTree = "<group>"; };
 		ED25ED2F2173133E00696691 /* TableViewVideoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewVideoCell.swift; sourceTree = "<group>"; };
-		ED25ED7721765D7A00696691 /* v5.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = v5.mp4; sourceTree = "<group>"; };
-		ED25ED7821765D7B00696691 /* v3.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = v3.mp4; sourceTree = "<group>"; };
-		ED25ED7921765D7B00696691 /* v6.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = v6.mp4; sourceTree = "<group>"; };
-		ED25ED7A21765D7D00696691 /* v2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = v2.mp4; sourceTree = "<group>"; };
-		ED25ED7B21765D8000696691 /* v1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = v1.mp4; sourceTree = "<group>"; };
-		ED25ED7C21765D8000696691 /* v4.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = v4.mp4; sourceTree = "<group>"; };
+		ED25ED84217D0AEF00696691 /* v5.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = v5.mp4; sourceTree = "<group>"; };
+		ED25ED85217D0AF000696691 /* v3.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = v3.mp4; sourceTree = "<group>"; };
+		ED25ED86217D0AF000696691 /* v6.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = v6.mp4; sourceTree = "<group>"; };
+		ED25ED87217D0AF300696691 /* v2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = v2.mp4; sourceTree = "<group>"; };
+		ED25ED88217D0AF500696691 /* v1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = v1.mp4; sourceTree = "<group>"; };
+		ED25ED89217D0AF500696691 /* v4.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = v4.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,9 +113,9 @@
 		ED25ECFC217291FD00696691 /* MyVideo */ = {
 			isa = PBXGroup;
 			children = (
+				ED25ED90217D109600696691 /* Video */,
 				ED25ECFD217291FD00696691 /* AppDelegate.swift */,
 				ED25ED2B2172928600696691 /* Video.swift */,
-				ED25ED7E21765DA900696691 /* video */,
 				ED25ED01217291FD00696691 /* Main.storyboard */,
 				ED25ED042172920500696691 /* Assets.xcassets */,
 				ED25ED062172920500696691 /* LaunchScreen.storyboard */,
@@ -138,17 +144,17 @@
 			path = MyVideoUITests;
 			sourceTree = "<group>";
 		};
-		ED25ED7E21765DA900696691 /* video */ = {
+		ED25ED90217D109600696691 /* Video */ = {
 			isa = PBXGroup;
 			children = (
-				ED25ED7B21765D8000696691 /* v1.mp4 */,
-				ED25ED7A21765D7D00696691 /* v2.mp4 */,
-				ED25ED7821765D7B00696691 /* v3.mp4 */,
-				ED25ED7C21765D8000696691 /* v4.mp4 */,
-				ED25ED7721765D7A00696691 /* v5.mp4 */,
-				ED25ED7921765D7B00696691 /* v6.mp4 */,
+				ED25ED88217D0AF500696691 /* v1.mp4 */,
+				ED25ED87217D0AF300696691 /* v2.mp4 */,
+				ED25ED85217D0AF000696691 /* v3.mp4 */,
+				ED25ED89217D0AF500696691 /* v4.mp4 */,
+				ED25ED84217D0AEF00696691 /* v5.mp4 */,
+				ED25ED86217D0AF000696691 /* v6.mp4 */,
 			);
-			path = video;
+			path = Video;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -255,6 +261,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED25ED8F217D0AF600696691 /* v4.mp4 in Resources */,
+				ED25ED8B217D0AF600696691 /* v3.mp4 in Resources */,
+				ED25ED8C217D0AF600696691 /* v6.mp4 in Resources */,
+				ED25ED8D217D0AF600696691 /* v2.mp4 in Resources */,
+				ED25ED8A217D0AF600696691 /* v5.mp4 in Resources */,
+				ED25ED8E217D0AF600696691 /* v1.mp4 in Resources */,
 				ED25ED082172920500696691 /* LaunchScreen.storyboard in Resources */,
 				ED25ED052172920500696691 /* Assets.xcassets in Resources */,
 				ED25ED03217291FD00696691 /* Main.storyboard in Resources */,
